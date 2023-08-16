@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-image: url('background_image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.logo img {
+    max-width: 35px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  #clear-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 8px;
+  }
+  
+  /* Style the SVG image inside the clear button */
+  #clear-button img {
+    width: 20px;
+    height: 20px;
+    fill: #999; /* Adjust the color as needed */
+    transition: fill 0.3s ease;
+  }
+  
+  /* Change the SVG color on hover */
+  #clear-button:hover img {
+    fill: #555; /* Adjust the hover color */
+  }
+  
+  #search-input {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 24px;
+    width: 600px;
+    outline: none;
+    font-size: 16px;
+    background-color: #f1f3f4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #search-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  #search-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .result-item {
+    margin-bottom: 20px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  .result-item h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #1a0dab;
+  }
+  
+  .result-item a {
+    color: #1a0dab;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .result-item a:hover {
+    text-decoration: underline;
+    color: #0d0d0d;
+  }
+  

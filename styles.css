@@ -3,10 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    background-image: url('background_image.jpg'); /* Replace with your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+   
   }
   
   .container {
@@ -50,17 +47,15 @@ header {
     margin-left: 8px;
   }
   
-  /* Style the SVG image inside the clear button */
   #clear-button img {
     width: 20px;
     height: 20px;
-    fill: #999; /* Adjust the color as needed */
+    fill: #999; 
     transition: fill 0.3s ease;
   }
   
-  /* Change the SVG color on hover */
   #clear-button:hover img {
-    fill: #555; /* Adjust the hover color */
+    fill: #555; 
   }
   
   #search-input {

@@ -1,12 +1,12 @@
     const searchInput = document.getElementById("search-input");
     const searchButton = document.getElementById("search-button");
-    const clearButton = document.getElementById("clear-button"); // Add this line
+    const clearButton = document.getElementById("clear-button");
     const main = document.querySelector("main");
-    const apiKey = "AIzaSyCJSz9mET1BU1Rs0BD7UGzWmUWXWWQIWXc"; // Replace with your Google Cloud API key
-    const searchEngineId = "4302779a9238345c4"; // Replace with your Custom Search Engine ID
+    const apiKey = "AIzaSyCJSz9mET1BU1Rs0BD7UGzWmUWXWWQIWXc"; 
+    const searchEngineId = "4302779a9238345c4";
     
     searchButton.addEventListener("click", performSearch);
-    clearButton.addEventListener("click", clearSearch); // Add this line
+    clearButton.addEventListener("click", clearSearch); 
     searchInput.addEventListener("keydown", (event) => {
         if (event.key === "Enter") {
           performSearch();
